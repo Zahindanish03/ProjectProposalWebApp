@@ -159,10 +159,9 @@ References
 
 - ShopeeFood. Food Delivery Service. Retrieved from https://shopeefood.com.my/
 
-- Lau, T.-C. (2019). Online Food Delivery Services: Making Food Delivery the New Normal. Retrieved from ResearchGate: https://www.researchgate.net/profile/Teck-Chai-Lau-2/publication/334050513_Online_Food_Delivery_Services_Making_Food_Delivery_the_New_Normal/links/5d148043458515c11cfb6d5e/Online-Food-Delivery-Services-Making-Food-Delivery-the-New-Normal.pdf
+- Lau, T.-C. (2019). Online food delivery services: Making food delivery the new normal. Retrieved from https://www.researchgate.net/profile/Teck-Chai-Lau-2/publication/334050513_Online_Food_Delivery_Services_Making_Food_Delivery_the_New_Normal/links/5d148043458515c11cfb6d5e/Online-Food-Delivery-Services-Making-Food-Delivery-the-New-Normal.pdf
 
-- Mattila, A. S., & Enz, C. A. (2020). The impact of COVID-19 on the restaurant industry. International Journal of Contemporary Hospitality Management, 32(10), 3037-3042. https://doi.org/10.1108/ijchm-06-2019-0595
-Retrieved from https://www.emerald.com/insight/content/doi/10.1108/ijchm-06-2019-0595/full/html
+- Mattila, A. S., & Enz, C. A. (2020). The impact of COVID-19 on the restaurant industry. International Journal of Contemporary Hospitality Management, 32(10), 3037–3042. https://doi.org/10.1108/ijchm-06-2019-0595
 
 
 
