@@ -149,6 +149,13 @@ Relationships:
 
 
 
+Sequence Diagram
+
+![image](https://github.com/user-attachments/assets/0e055b00-b142-4ba5-a5b4-8ac0fba66cbf)
+
+
+
+
 References
 
 - Laravel Official Documentation. Laravel Framework. Retrieved from https://laravel.com/docs
