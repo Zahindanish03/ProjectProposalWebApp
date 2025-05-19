@@ -38,7 +38,8 @@ NOMNOMBite is a web-based food ordering system built using Laravel’s Model-Vie
 ---
 
 ## Entity-Relationship Diagram (ERD)
-![ERD](https://raw.githubusercontent.com/yourusername/yourrepo/main/NOMNOMBite_ERD.png)
+![image](https://github.com/user-attachments/assets/464a4904-8e24-4e1c-bf60-4e9e300222ab)
+
 
 ### Entity Summary
 
