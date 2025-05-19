@@ -159,6 +159,10 @@ References
 
 - ShopeeFood. Food Delivery Service. Retrieved from https://shopeefood.com.my/
 
+- Lau, T.-C. (2019). Online Food Delivery Services: Making Food Delivery the New Normal. Retrieved from ResearchGate: https://www.researchgate.net/profile/Teck-Chai-Lau-2/publication/334050513_Online_Food_Delivery_Services_Making_Food_Delivery_the_New_Normal/links/5d148043458515c11cfb6d5e/Online-Food-Delivery-Services-Making-Food-Delivery-the-New-Normal.pdf
+
+
+
 
 
 
