@@ -65,81 +65,86 @@ Entities and Relationships
 
 3. Menus
 
-menu_id (PK)
+- menu_id (PK)
 
-restaurant_id (FK, references Restaurants.restaurant_id)
+- restaurant_id (FK, references Restaurants.restaurant_id)
 
-name
+- name
 
-description
+- description
 
-price
+- price
 
-image
+- image
 
-created_at
+- created_at
 
-updated_at
+- updated_at
 
-Orders
+4. Orders
 
-order_id (PK)
+- order_id (PK)
 
-user_id (FK, references Users.user_id)
+- user_id (FK, references Users.user_id)
 
-restaurant_id (FK, references Restaurants.restaurant_id)
+- restaurant_id (FK, references Restaurants.restaurant_id)
 
-total_price
+- total_price
 
-status (Pending, Preparing, Out for Delivery, Completed)
+- status (Pending, Preparing, Out for Delivery, Completed)
 
-created_at
+- created_at
 
-updated_at
+- updated_at
 
-Order_Items
+5. Order_Items
 
-order_item_id (PK)
+- order_item_id (PK)
 
-order_id (FK, references Orders.order_id)
+- order_id (FK, references Orders.order_id)
 
-menu_id (FK, references Menus.menu_id)
+- menu_id (FK, references Menus.menu_id)
 
-quantity
+- quantity
 
-price (Price at the time of order)
+- price (Price at the time of order)
 
-created_at
+- created_at
 
-updated_at
+- updated_at
 
-Reviews
+6. Reviews
 
-review_id (PK)
+- review_id (PK)
 
-order_id (FK, references Orders.order_id)
+- order_id (FK, references Orders.order_id)
 
-rating
+- rating
 
-comment
+- comment
 
-created_at
+- created_at
 
-updated_at
+- updated_at
+
+
+
 
 Relationships:
-Users to Restaurants = One-to-Many (A restaurant owner can have multiple restaurants)
 
-Restaurants to Menus = One-to-Many (Each restaurant has multiple menu items)
+1. Users to Restaurants = One-to-Many (A restaurant owner can have multiple restaurants)
 
-Users to Orders = One-to-Many (A customer can place multiple orders)
+2. Restaurants to Menus = One-to-Many (Each restaurant has multiple menu items)
 
-Orders to Order_Items = One-to-Many (Each order has multiple items)
+3. Users to Orders = One-to-Many (A customer can place multiple orders)
 
-Menus to Order_Items = One-to-Many (Each menu item can appear in multiple orders)
+4. Orders to Order_Items = One-to-Many (Each order has multiple items)
 
-Orders to Reviews = One-to-One (Each order can have one review)
+5. Menus to Order_Items = One-to-Many (Each menu item can appear in multiple orders)
 
+6. sureOrders to Reviews = One-to-One (Each order can have one review)
+
+![image](https://github.com/user-attachments/assets/fd7157fd-f15c-4586-8e6b-720b387f2ad8)
 
 
 
