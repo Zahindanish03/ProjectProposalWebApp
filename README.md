@@ -144,7 +144,8 @@ Relationships:
 
 6. sureOrders to Reviews = One-to-One (Each order can have one review)
 
-![image](https://github.com/user-attachments/assets/fd7157fd-f15c-4586-8e6b-720b387f2ad8)
+![image](https://github.com/user-attachments/assets/b60791fa-f578-463a-afbd-f20f18a10344)
+
 
 
 
