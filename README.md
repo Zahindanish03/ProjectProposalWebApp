@@ -17,6 +17,13 @@ Objective: - To provide a Shariah-compliant food ordering platform that focuses 
            - To allow restaurants to manage food items, orders, and delivery statuses efficiently.
            - To implement Laravel components such as routing, Blade views, Eloquent models, and CRUD operations.
 
+Features and Functionalities: - **User Authentication:** Role-based login for Admin, Restaurant Owner, and Customer.
+                              - **Restaurant Dashboard:** Add, update, and delete food items with images and prices.
+                              - **Customer Dashboard:** Browse menus, add items to cart, place orders, and view order history.
+                              - **Order Management:** Real-time updates of order status (Pending, Preparing, Out for Delivery, Completed).
+                              - **Responsive UI:** Built with Laravel Blade and Bootstrap for mobile and desktop support.
+                             
+
 
 
 
