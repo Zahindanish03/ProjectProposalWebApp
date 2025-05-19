@@ -25,6 +25,124 @@ Features and Functionalities: - **User Authentication:** Role-based login for Ad
                              
 
 
+Entities and Relationships
+
+1. Users (Admin, Restaurant Owner, Customer)
+
+- user_id (PK)
+
+- name
+
+- email (Unique)
+
+- password
+
+- role (Admin, Owner, Customer)
+
+- created_at
+
+- updated_at
+
+2. Restaurants
+
+- restaurant_id (PK)
+
+- user_id (FK, references Users.user_id)
+
+- name
+
+- address
+
+- phone
+
+- description
+
+- image (Logo or Cover Image)
+
+- created_at
+
+- updated_at
+
+3. Menus
+
+menu_id (PK)
+
+restaurant_id (FK, references Restaurants.restaurant_id)
+
+name
+
+description
+
+price
+
+image
+
+created_at
+
+updated_at
+
+Orders
+
+order_id (PK)
+
+user_id (FK, references Users.user_id)
+
+restaurant_id (FK, references Restaurants.restaurant_id)
+
+total_price
+
+status (Pending, Preparing, Out for Delivery, Completed)
+
+created_at
+
+updated_at
+
+Order_Items
+
+order_item_id (PK)
+
+order_id (FK, references Orders.order_id)
+
+menu_id (FK, references Menus.menu_id)
+
+quantity
+
+price (Price at the time of order)
+
+created_at
+
+updated_at
+
+Reviews
+
+review_id (PK)
+
+order_id (FK, references Orders.order_id)
+
+rating
+
+comment
+
+created_at
+
+updated_at
+
+Relationships:
+Users to Restaurants = One-to-Many (A restaurant owner can have multiple restaurants)
+
+Restaurants to Menus = One-to-Many (Each restaurant has multiple menu items)
+
+Users to Orders = One-to-Many (A customer can place multiple orders)
+
+Orders to Order_Items = One-to-Many (Each order has multiple items)
+
+Menus to Order_Items = One-to-Many (Each menu item can appear in multiple orders)
+
+Orders to Reviews = One-to-One (Each order can have one review)
+
+
+
+
 
 
 
