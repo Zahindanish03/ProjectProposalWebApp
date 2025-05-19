@@ -23,3 +23,5 @@ Objective: - To provide a Shariah-compliant food ordering platform that focuses 
 
 
 
+
+
