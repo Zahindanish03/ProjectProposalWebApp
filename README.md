@@ -149,6 +149,16 @@ Relationships:
 
 
 
+References
+
+- Laravel Official Documentation. Laravel Framework. Retrieved from https://laravel.com/docs
+
+- GrabFood. Food Delivery Service. Retrieved from https://www.grab.com/food/
+
+- FoodPanda. Online Food Ordering Platform. Retrieved from https://www.foodpanda.com.my/
+
+- ShopeeFood. Food Delivery Service. Retrieved from https://shopeefood.com.my/
+
 
 
 
