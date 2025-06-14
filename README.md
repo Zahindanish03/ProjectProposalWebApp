@@ -66,9 +66,41 @@ NOMNOMBite is a web-based food ordering system built using Laravel’s Model-Vie
 ## Sequence Diagram
 ![image](https://github.com/user-attachments/assets/d58ed895-f874-49f2-baaf-8a15d6f5eb07)
 
+---
+## Project Screen
 
+### Mainpage
+![image](https://github.com/user-attachments/assets/ee801157-624f-4695-a4f7-7baca8ecfd50)
+
+### Menu
+![image](https://github.com/user-attachments/assets/74f4e54a-efb2-4021-a163-0ed7cc9bbe2d)
+
+### About
+![image](https://github.com/user-attachments/assets/187820e6-4728-4f97-97d1-fbca7cd0fc70)
+
+### Contact
+![image](https://github.com/user-attachments/assets/77a217ca-7a33-415b-8462-2437b7db7b2d)
+
+### Cart
+![image](https://github.com/user-attachments/assets/67ec4687-cb5a-438c-bc1c-65ea4a32fb07)
 
 ---
+
+## Challenges
+
+### Database Seeding and Testing
+- Seeding realistic test data for development and testing purposes, especially across interconnected tables, may lead to confusion if not planned properly.
+
+### Navigation Between Roles
+- Users with different roles may encounter UI/UX confusion if the navigation and dashboard access are not clearly separated or marked.
+
+### Time Constraints
+- Balancing Laravel learning curves, debugging, and feature development within academic deadlines may pressure the team and lead to incomplete features or minimal testing.
+
+### Task Division and Code Integration
+- Coordinating among team members who are each working on different parts of the MVC architecture can lead to merge conflicts or integration issues if there’s no proper Git version control or communication.
+
+--- 
 
 ## References
 1. [Laravel Documentation](https://laravel.com/docs)  
